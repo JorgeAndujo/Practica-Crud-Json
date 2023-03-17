@@ -41,7 +41,7 @@ const helpHttp = () => {
     }
 
     const del = (url, options = {}) => {
-        options.method = "DEL";
+        options.method = "DELETE";
         return customFetch(url, options)
     }
 
